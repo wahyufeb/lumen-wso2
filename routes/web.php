@@ -23,3 +23,6 @@ $router->group(['prefix' => 'file'], function () use ($router) {
     $router->get('/', 'PersonelController@getFile');
     $router->post('/upload', 'PersonelController@upload');
 });
+$router->group(['prefix' => 'generate-api-wso'], function () use ($router) {
+    $router->get('/', 'GeneratorController@testHelper');
+});

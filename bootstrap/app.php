@@ -56,6 +56,7 @@ $app->singleton('filesystem', function ($app) {
         'filesystem'
     );
 });
+
 /*
 |--------------------------------------------------------------------------
 | Register Config Files

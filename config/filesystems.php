@@ -20,6 +20,14 @@ return [
     'uploads' => [
       'driver' => 'local',
       'root' => storage_path('app/uploads'),
+    ],
+    'apis' => [
+      'driver' => 'local',
+      'root' => storage_path('app/apis'),
+    ],
+    'templates' => [
+      'driver' => 'local',
+      'root' => storage_path('app/templates'),
     ]
   ],
 ];
